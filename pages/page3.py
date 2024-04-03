@@ -24,7 +24,9 @@ def layout():
                     html.Li('Complete formulation of assignment optimization - written out'),
                     html.Li('Tool user interface (UI) design'),
                     html.Li('Tool user workflow map'),
-                    html.Li('How are we going to communicate the results?')
+                    html.Li('How are we going to communicate the results?'),
+                    html.Li('How to deal with excess/shortage workers?'),
+                    html.Li('Line priority (manipulate objective function)')
                 ]
             )
         ])
