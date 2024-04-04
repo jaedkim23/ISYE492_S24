@@ -2,7 +2,7 @@ from dash import html, register_page  #, callback # If you need callbacks, impor
 from datetime import date, timedelta
 currentDate = date.today()
 currentDate_copy = date.today()
-May6 = date(2024, 5, 6)
+May5 = date(2024, 5, 5)
 May10 = date(2024, 5, 10)
 diff1 = May6 - currentDate
 diff2 = May10 - currentDate
@@ -10,7 +10,7 @@ diff2 = May10 - currentDate
 mon_count = 0
 wed_count = 0
 
-while currentDate_copy <= May6:
+while currentDate_copy <= May5:
     if currentDate_copy.weekday() == 0:  # Monday
         mon_count += 1
     elif currentDate_copy.weekday() == 2:  # Wednesday
