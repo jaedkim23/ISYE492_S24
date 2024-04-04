@@ -24,8 +24,12 @@ def layout():
                     html.Li('Identification of variables that affect quality output measure'),
                     html.Li('Visuals to demonstrate relationship between variables'),
                     html.Li('Summary of data wrangling - how did we subset the data for analysis?'),
+                    html.Li('Summary of data analysis and processes - includes visuals'),
                     html.Li('Model to predict failure'),
-                    html.Li('Presentation method')
+                    html.Li('Logistic regression, ROC curve'),
+                    html.Li('Raw table of selected columns'),
+                    html.Li('Presentation method'),
+                    html.Li('Recommendation - based on analysis and model results (train/test)')
                 ]
             )
         ])
