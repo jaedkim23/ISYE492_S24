@@ -4,7 +4,7 @@ currentDate = date.today()
 currentDate_copy = date.today()
 May5 = date(2024, 5, 5)
 May10 = date(2024, 5, 10)
-diff1 = May6 - currentDate
+diff1 = May5 - currentDate
 diff2 = May10 - currentDate
 
 mon_count = 0
