@@ -32,6 +32,11 @@ def layout():
                     html.Li('Recommendation - based on analysis and model results (train/test)')
                 ]
             )
+        ]),
+        html.Div([
+            html.p(
+                ['Note: may be useful to investigate tpu data with the outliers detected by cycle time removed, may provide different outcome']
+            )
         ])
     ])
     return layout
