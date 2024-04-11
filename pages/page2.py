@@ -34,7 +34,7 @@ def layout():
             )
         ]),
         html.Div([
-            html.H3(
+            html.H5(
                 ['Note: may be useful to investigate tpu data with the outliers detected by cycle time removed, may provide different outcome']
             )
         ])
